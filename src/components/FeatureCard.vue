@@ -1,17 +1,18 @@
 <template>
   <div class="feature-card">
-    <router-link to="/movie/tt3896198">
+    <router-link to="/movie/tt9335498">
       <img
-        src="https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg"
-        alt="Guardians of the Galaxy"
+        src="https://m.media-amazon.com/images/M/MV5BZjZjNzI5MDctY2Y4YS00NmM4LTljMmItZTFkOTExNGI3ODRhXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_SX300.jpg"
+        alt="Demon Slayer: Kimetsu No Yaiba"
         class="feature-img"
       />
       <div class="feature-details">
-        <h3>Guardians of the Galaxy</h3>
+        <h3>Demon Slayer: Kimetsu No Yaiba</h3>
         <p>
-          The Guardians struggle to keep together as a team while dealing with
-          their personal family issues, notably Star-Lord's encounter with his
-          father the ambitious celestial being Ego.
+          A family is attacked by demons and only two members survive - Tanjiro
+          and his sister Nezuko, who is turning into a demon slowly. Tanjiro
+          sets out to become a demon slayer to avenge his family and cure his
+          sister.
         </p>
       </div>
     </router-link>

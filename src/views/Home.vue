@@ -42,7 +42,7 @@ export default {
       if (search.value != "") {
         console.log(search.value);
         fetch(
-          `http://www.omdbapi.com/?apikey=${process.env.VUE_APP_OMDb_API_KEY}&s=${search.value}`
+          `https://www.omdbapi.com/?apikey=${process.env.VUE_APP_OMDb_API_KEY}&s=${search.value}`
         )
           .then((response) => response.json())
           .then((data) => {

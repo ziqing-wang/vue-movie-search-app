@@ -34,7 +34,7 @@ export default {
 
     onBeforeMount(() => {
       fetch(
-        `http://www.omdbapi.com/?apikey=${process.env.VUE_APP_OMDb_API_KEY}&i=${movieId}&plot=full`
+        `https://www.omdbapi.com/?apikey=${process.env.VUE_APP_OMDb_API_KEY}&i=${movieId}&plot=full`
       )
         .then((response) => response.json())
         .then((data) => (movie.value = data))

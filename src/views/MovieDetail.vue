@@ -31,10 +31,11 @@ export default {
   setup() {
     const movieId = useRoute().params.id;
     const movie = ref({});
+    const API_KEY = '246db6e2';
 
     onBeforeMount(() => {
       fetch(
-        `https://www.omdbapi.com/?apikey=${process.env.VUE_APP_OMDb_API_KEY}&i=${movieId}&plot=full`
+        `https://www.omdbapi.com/?apikey=${API_KEY}&i=${movieId}&plot=full`
       )
         .then((response) => response.json())
         .then((data) => (movie.value = data))
@@ -69,6 +70,7 @@ export default {
       movieId,
       movie,
       briefInfo,
+      API_KEY
     };
   },
 };
